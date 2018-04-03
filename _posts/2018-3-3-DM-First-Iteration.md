@@ -7,6 +7,7 @@ One of my guilty pleasures is the Belgian reality TV program 'De Mol' (translate
 It is very successful, both in Belgium and outside, as it has been exported to a large number of countries.
 Your own country may even have its own variant!
 It is so well known in Belgium that I have to avoid the Belgian news the next day to avoid spoilers if I haven't seen it yet.
+Here I am going to try to solve its mystery by using some data munching techniques!
 
 ## De Mol program scope
 
@@ -82,7 +83,7 @@ Furthermore each contestant seems to primarily suspect between one and three oth
 
 These are the first results:
 
-|Traitor||Probability|
+|*Traitor*||*Probability*|
 |:-------||:----------|
 |Pieter||32%|
 |Pascale||22%|
