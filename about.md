@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
+### About me
 
-A place to include any other types of information that you'd like to include about yourself.
+Pieter Meysman is a post-doctoral researcher at the Advanced Database Research and Modelling (ADReM) group of the University of Antwerp and the Biomedical Informatics Research Center Antwerp (biomina) at the University of Antwerp and the Antwerp University Hospital. His research interests are mainly focused on the application of data mining algorithms for pattern discovery in transcriptomics, evolutionary genomics and immunology.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[pieter.meysman@uantwerpen.be](mailto:pieter.meysman@uantwerpen.be)
