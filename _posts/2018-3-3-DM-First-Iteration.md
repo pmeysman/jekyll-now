@@ -45,7 +45,7 @@ If someone has to leave, that means that they are most wrong about who the trait
 So all we have to do is know whom suspects who. The problem is that this is a closely kept secret between the contestants and we don't know what they fill into their surveys.
 However each episode they have small interviews with the contestants and ask them about their suspicions and theories.
 This is only a few data samples, but we can try to extrapolate from that.
-So each episode I hand annotate these little interviews with whom is pointing fingers at who. (I don't want to right a complex machine learning parser to do this automatically.)
+So each episode I hand annotate these little interviews with whom is pointing fingers at who. (I don't want to write a complex machine learning parser to do this automatically.)
 Since this is only a small selection of insight into the current thoughts of each contestant, I bootstrap these statements to build a suspicion matrix.
 The matrix will then contain for all remaining contestants how many times another contestant has pointed the finger at them in these interviews.
 I will keep track of which contestants have dropped out and which remain. Then the algorithm will try every possible traitor to check who has garnered the most suspicion with those that remain and the least with those that have dropped out.
@@ -57,22 +57,22 @@ The model is based on some assumptions that I've noted in previous years:
 * The editors almost never show an interview for a person who is going to leave soon. We need to rely on previous episodes to establish their suspicions.
 * People hardly ever change their minds about who the traitor is, and typically become more sure as the series progress. They are still human and suffer from confirmation bias.
 * The interviews are truthful as they are talking to the camera without any of the other contestants overhearing. This is not the case for the traitor.
-* A good check is to see if suspected traitor (whos suspicions are disregarded when they are considered as such) is making odd statements. This usually doesn't work as they usually throw suspicion on those that suspect them, but can be an interesting validation step.
+* A good check is to see if suspected traitor (whose suspicions are disregarded when they are considered as such) is making odd statements. This usually doesn't work as they usually throw suspicion on those that suspect them, but can be an interesting validation step.
 
 ## The suspicion matrix after episode 2
 
 I did not have enough data after a single episode, but some trends do emerge after the second one.
 
-|*Suspect*||Bahador  |Lloyd  |Jeffrey  |Steve  |Pieter  |Joke  |Channy  |Katrien  |Pascale  |
-|:--------||---------|-------|---------|-------|--------|------|--------|---------|---------|
-|Pieter  ||6|14|21|11|0|23|6|30|8|
-|Pascale  ||44|24|4|10|9|4|5|5|0|
-|Lloyd  ||12|0|9|5|21|5|5|11|19|
-|Steve  ||6|2|20|0|25|5|12|5|8|
-|Joke  ||6|14|9|5|4|0|46|24|4|
-|Jeffrey  ||6|6|0|5|4|28|6|11|33|
-|Bahador  ||0|28|19|25|19|5|12|5|4|
-|Katrien  ||6|6|9|5|9|22|5|0|18|
+| Suspect | Bahador | Lloyd | Jeffrey | Steve | Pieter | Joke | Channy | Katrien | Pascale |
+|---------|---------|-------|---------|-------|--------|------|--------|---------|---------|
+| Pieter  |       6 |    14 |      21 |    11 |      0 |   23 |      6 |      30 |       8 |
+| Pascale |      44 |    24 |       4 |    10 |      9 |    4 |      5 |       5 |       0 |
+| Lloyd   |      12 |     0 |       9 |     5 |     21 |    5 |      5 |      11 |      19 |
+| Steve   |       6 |     2 |      20 |     0 |     25 |    5 |     12 |       5 |       8 |
+| Joke    |       6 |    14 |       9 |     5 |      4 |    0 |     46 |      24 |       4 |
+| Jeffrey |       6 |     6 |       0 |     5 |      4 |   28 |      6 |      11 |      33 |
+| Bahador |       0 |    28 |      19 |    25 |     19 |    5 |     12 |       5 |       4 |
+| Katrien |       6 |     6 |       9 |     5 |      9 |   22 |      5 |       0 |      18 |
 
 With the rows as the potential suspect, and the columns with each contestant. Thus it is COLUMN suspects ROW.
 The values are normalised at the column level to avoid weighting a single contestant higher than another.
@@ -83,7 +83,7 @@ Furthermore each contestant seems to primarily suspect between one and three oth
 
 These are the first results:
 
-|*Traitor*||*Probability*|
+|**Traitor**||**Probability**|
 |:-------||:----------|
 |Pieter||32%|
 |Pascale||22%|
