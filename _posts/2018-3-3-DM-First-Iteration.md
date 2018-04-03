@@ -62,16 +62,16 @@ The model is based on some assumptions that I've noted in previous years:
 
 I did not have enough data after a single episode, but some trends do emerge after the second one.
 
-   ||Bahador|Lloyd|Jeffrey|Steve|Pieter|Joke|Channy|Katrien|Pascale
-:---||-------|-----|-------|-----|------|----|------|-------|-------
-Pieter  ||6|14|21|11|0|23|6|30|8
-Pascale  ||44|24|4|10|9|4|5|5|0
-Lloyd  ||12|0|9|5|21|5|5|11|19
-Steve  ||6|2|20|0|25|5|12|5|8
-Joke  ||6|14|9|5|4|0|46|24|4
-Jeffrey  ||6|6|0|5|4|28|6|11|33
-Bahador  ||0|28|19|25|19|5|12|5|4
-Katrien  ||6|6|9|5|9|22|5|0|18
+|Suspect||Bahador|Lloyd|Jeffrey|Steve|Pieter|Joke|Channy|Katrien|Pascale|
+|:------||-------|-----|-------|-----|------|----|------|-------|-------|
+|Pieter  ||6|14|21|11|0|23|6|30|8|
+|Pascale  ||44|24|4|10|9|4|5|5|0|
+|Lloyd  ||12|0|9|5|21|5|5|11|19|
+|Steve  ||6|2|20|0|25|5|12|5|8|
+|Joke  ||6|14|9|5|4|0|46|24|4|
+|Jeffrey  ||6|6|0|5|4|28|6|11|33|
+|Bahador  ||0|28|19|25|19|5|12|5|4|
+|Katrien  ||6|6|9|5|9|22|5|0|18|
 
 With the rows as the potential suspect, and the columns with each contestant. Thus it is COLUMN suspects ROW.
 The values are normalised at the column level to avoid weighting a single contestant higher than another.
@@ -82,16 +82,16 @@ Furthermore each contestant seems to primarily suspect between one and three oth
 
 These are the first results:
 
-Traitor||Probability
-:-------||-----------
-Pieter||32%
-Pascale||22%
-Bahador||20%
-Jeffrey||10%
-Lloyd||7%
-Katrien||4%
-Steve||2%
-Joke||1%
+|Traitor||Probability|
+|:-------||:----------|
+|Pieter||32%|
+|Pascale||22%|
+|Bahador||20%|
+|Jeffrey||10%|
+|Lloyd||7%|
+|Katrien||4%|
+|Steve||2%|
+|Joke||1%|
 
 Note that at this point it is simply putting forward those that are most suspected by the group. 
 The top three (Pieter, Pascal and Bahador) are among those that have gotten the most suspicion from the other candidates.
