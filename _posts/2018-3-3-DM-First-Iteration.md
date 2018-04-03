@@ -63,7 +63,7 @@ The model is based on some assumptions that I've noted in previous years:
 
 I did not have enough data after a single episode, but some trends do emerge after the second one.
 
-| Suspect | Bahador | Lloyd | Jeffrey | Steve | Pieter | Joke | Channy | Katrien | Pascale |
+|Suspect\ |Bahador\ |Lloyd\ |Jeffrey\ |Steve\ |Pieter\ |Joke\ |Channy\ |Katrien\ |Pascale\ |
 |---------|---------|-------|---------|-------|--------|------|--------|---------|---------|
 | Pieter  |       6 |    14 |      21 |    11 |      0 |   23 |      6 |      30 |       8 |
 | Pascale |      44 |    24 |       4 |    10 |      9 |    4 |      5 |       5 |       0 |
