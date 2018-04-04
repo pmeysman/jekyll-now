@@ -61,6 +61,8 @@ The model is based on some assumptions that I've noted in previous years:
 
 ## The suspicion matrix after episode 2
 
+![Suspicion graph after episode 2]({{ site.baseurl }}/images/e1-suspicion.png "Suspicion graph after episode 2")
+
 I did not have enough data after a single episode, but some trends do emerge after the second one.
 
 |Suspect\ |Bahador\ |Lloyd\ |Jeffrey\ |Steve\ |Pieter\ |Joke\ |Channy\ |Katrien\ |Pascale\ |
