@@ -85,16 +85,7 @@ Furthermore each contestant seems to primarily suspect between one and three oth
 
 These are the first results:
 
-|**Traitor**||**Probability**|
-|:-------|:----------|
-|Pieter|32%|
-|Pascale|22%|
-|Bahador|20%|
-|Jeffrey|10%|
-|Lloyd|7%|
-|Katrien|4%|
-|Steve|2%|
-|Joke|1%|
+![Predictions after episode 2]({{ site.baseurl }}/images/e1-prediction.001.png "Predictions after episode 2")
 
 Note that at this point it is simply putting forward those that are most suspected by the group. 
 The top three (Pieter, Pascal and Bahador) are among those that have gotten the most suspicion from the other candidates.
