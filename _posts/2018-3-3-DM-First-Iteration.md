@@ -90,5 +90,6 @@ These are the first results:
 Note that at this point it is simply putting forward those that are most suspected by the group. 
 The top three (Pieter, Pascal and Bahador) are among those that have gotten the most suspicion from the other candidates.
 But that doesn't mean that they are right. As contestants will start to drop out, this will most definitely change.
+Last year, it took until after episode 4 for the model to get its predictions sort of right.
 What is a good sign, is that Joke is at 1%. The suspicion matrix indicates that she was the prime suspect of Channy, who dropped out in episode 2.
 Thus at the moment the model thinks it is highly unlikely that Joke is the traitor. However this is only true if it is right about the Channy suspicion, so it may have to correct itself later.
