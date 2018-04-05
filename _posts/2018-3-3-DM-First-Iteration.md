@@ -30,7 +30,7 @@ For the past few years, I have been experimenting with tackling predicting the t
 I never got around to formalising the model, but would just work it out on paper. From what I could see, it seemed to work well. But that is mostly retrospective, after the program is done and the traitor had been revealed.
 This year, I'm going to try to make my predictions in advance with the formalised model. And to have some proof after the fact, I am going to keep these blogpost online.
 I don't expect 100% accuracy from my model. In fact I put it on even odds if it will make the right prediction before the final episode.
-But I am very curious how it will adapt and change as the season progress and it gets more and more data.
+But I am very curious how it will adapt and change as the season progresses and it gets more and more data.
 So I'll try to post each week what it is predicting and I'll discuss some of the things where it may go horribly wrong.
 
 ## How the model works
